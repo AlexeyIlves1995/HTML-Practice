@@ -23,5 +23,23 @@
             <th>197323</th>
         </tr>
     </table>
+    <h2>General Inquiries</h2>
+    <form action="confirmation.html">
+        <label for="fullname">Name: *</label><br/>
+        <input required type="text" id="email" name="fullname" />
+        <br/><br/>
+        <label for="email">Email Address: *</label><br/>
+        <input required type="email" id="email" name="emailaddress" />
+        <br/><br/>
+        <label>Are you employed?</label>
+        <input type="radio" value="Y" name="employed" /> Yes
+        <input type="radio" value="N" name="unemployed" /> No
+        <br/><br/>
+        <label>State your inquiry *</label>
+        <textarea cols="100" rows="30" maxlength="150" id="inquiry"></textarea>
+
+        <br/><br/>
+        <input type="submit" />
+    </form>
 </body>
 </html>
